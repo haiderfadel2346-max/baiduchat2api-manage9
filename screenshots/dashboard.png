@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#f9fafb"/>
+
+  <!-- Header -->
+  <rect width="1200" height="60" fill="white"/>
+  <text x="30" y="38" font-size="24" font-weight="bold" fill="#1f2937">仪表盘</text>
+
+  <!-- Stats Cards -->
+  <!-- Total Requests -->
+  <rect x="30" y="90" width="270" height="140" rx="12" fill="white" stroke="#e5e7eb"/>
+  <circle cx="70" cy="130" r="24" fill="#dbeafe"/>
+  <text x="70" y="138" font-size="20" text-anchor="middle">📊</text>
+  <text x="30" y="185" font-size="13" fill="#6b7280">总请求数</text>
+  <text x="30" y="215" font-size="32" font-weight="bold" fill="#1f2937">1,234</text>
+
+  <!-- Success Rate -->
+  <rect x="320" y="90" width="270" height="140" rx="12" fill="white" stroke="#e5e7eb"/>
+  <circle cx="360" cy="130" r="24" fill="#d1fae5"/>
+  <text x="360" y="138" font-size="20" text-anchor="middle">✅</text>
+  <text x="320" y="185" font-size="13" fill="#6b7280">成功率</text>
+  <text x="320" y="215" font-size="32" font-weight="bold" fill="#10b981">98.5%</text>
+
+  <!-- Avg Response Time -->
+  <rect x="610" y="90" width="270" height="140" rx="12" fill="white" stroke="#e5e7eb"/>
+  <circle cx="650" cy="130" r="24" fill="#fef3c7"/>
+  <text x="650" y="138" font-size="20" text-anchor="middle">⚡</text>
+  <text x="610" y="185" font-size="13" fill="#6b7280">平均响应时间</text>
+  <text x="610" y="215" font-size="32" font-weight="bold" fill="#f59e0b">350ms</text>
+
+  <!-- Error Count -->
+  <rect x="900" y="90" width="270" height="140" rx="12" fill="white" stroke="#e5e7eb"/>
+  <circle cx="940" cy="130" r="24" fill="#fee2e2"/>
+  <text x="940" y="138" font-size="20" text-anchor="middle">❌</text>
+  <text x="900" y="185" font-size="13" fill="#6b7280">错误数量</text>
+  <text x="900" y="215" font-size="32" font-weight="bold" fill="#ef4444">18</text>
+
+  <!-- Cookie Status -->
+  <rect x="30" y="250" width="1140" height="120" rx="12" fill="white" stroke="#e5e7eb"/>
+  <text x="50" y="285" font-size="18" font-weight="600" fill="#1f2937">Cookie 状态</text>
+  <circle cx="70" cy="325" r="6" fill="#10b981"/>
+  <text x="90" y="330" font-size="15" font-weight="500" fill="#1f2937">✅ Cookie 有效</text>
+  <text x="250" y="330" font-size="13" fill="#6b7280">最后更新: 2024-01-10 14:30:25</text>
+
+  <!-- Quick Actions -->
+  <rect x="30" y="390" width="1140" height="240" rx="12" fill="white" stroke="#e5e7eb"/>
+  <text x="50" y="425" font-size="18" font-weight="600" fill="#1f2937">快速操作</text>
+
+  <rect x="50" y="450" width="340" height="150" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="70" y="480" font-size="16" font-weight="500" fill="#1f2937">📝 查看日志</text>
+  <text x="70" y="505" font-size="13" fill="#6b7280">查看 API 请求和系统日志</text>
+
+  <rect x="420" y="450" width="340" height="150" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="440" y="480" font-size="16" font-weight="500" fill="#1f2937">🍪 管理 Cookie</text>
+  <text x="440" y="505" font-size="13" fill="#6b7280">配置和刷新 Cookie</text>
+
+  <rect x="790" y="450" width="340" height="150" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="810" y="480" font-size="16" font-weight="500" fill="#1f2937">⚙️ 系统配置</text>
+  <text x="810" y="505" font-size="13" fill="#6b7280">修改系统配置</text>
+</svg>

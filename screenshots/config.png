@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#f9fafb"/>
+
+  <!-- Main Card -->
+  <rect x="50" y="50" width="1100" height="575" rx="16" fill="white" stroke="#e5e7eb"/>
+
+  <!-- Tabs -->
+  <rect x="80" y="80" width="140" height="40" rx="8" fill="#3b82f6"/>
+  <text x="150" y="107" font-size="14" font-weight="500" text-anchor="middle" fill="white">⚙️ 通用配置</text>
+
+  <rect x="230" y="80" width="160" height="40" rx="8" fill="#f3f4f6"/>
+  <text x="310" y="107" font-size="14" font-weight="500" text-anchor="middle" fill="#6b7280">🔄 上下文配置</text>
+
+  <!-- Config Items -->
+  <!-- Cookie Auto Refresh -->
+  <rect x="80" y="150" width="1040" height="70" fill="white" stroke="#e5e7eb"/>
+  <text x="110" y="180" font-size="15" font-weight="500" fill="#1f2937">Cookie 自动刷新</text>
+  <text x="110" y="200" font-size="12" fill="#6b7280">Cookie 失效时自动重新获取</text>
+  <rect x="1020" y="175" width="50" height="24" rx="12" fill="#10b981"/>
+  <circle cx="1050" cy="187" r="8" fill="white"/>
+
+  <!-- Log Retention -->
+  <rect x="80" y="230" width="1040" height="70" fill="#f9fafb"/>
+  <text x="110" y="260" font-size="15" font-weight="500" fill="#1f2937">日志保留天数</text>
+  <text x="110" y="280" font-size="12" fill="#6b7280">超过此天数的日志将被自动清理</text>
+  <rect x="1000" y="255" width="80" height="30" rx="6" fill="white" stroke="#d1d5db"/>
+  <text x="1040" y="277" font-size="13" text-anchor="middle" fill="#1f2937">30</text>
+
+  <!-- User Agent -->
+  <rect x="80" y="310" width="1040" height="90" fill="white" stroke="#e5e7eb"/>
+  <text x="110" y="340" font-size="15" font-weight="500" fill="#1f2937">User-Agent</text>
+  <text x="110" y="360" font-size="12" fill="#6b7280">自定义请求头 User-Agent</text>
+  <rect x="110" y="370" width="980" height="35" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="130" y="393" font-size="11" font-family="monospace" fill="#6b7280">Mozilla/5.0 (Windows NT 10.0; Win64; x64)...</text>
+
+  <!-- Cookie Pool Enabled -->
+  <rect x="80" y="410" width="1040" height="70" fill="#f9fafb"/>
+  <text x="110" y="440" font-size="15" font-weight="500" fill="#1f2937">启用 Cookie 池</text>
+  <text x="110" y="460" font-size="12" fill="#6b7280">使用多个 Cookie 进行负载均衡</text>
+  <rect x="1020" y="435" width="50" height="24" rx="12" fill="#d1d5db"/>
+  <circle cx="1030" cy="447" r="8" fill="white"/>
+
+  <!-- Save Button -->
+  <rect x="950" y="520" width="120" height="40" rx="8" fill="#3b82f6"/>
+  <text x="1010" y="546" font-size="14" font-weight="500" text-anchor="middle" fill="white">保存配置</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#f9fafb"/>
+
+  <!-- Header -->
+  <rect width="1200" height="60" fill="white"/>
+  <text x="30" y="38" font-size="24" font-weight="bold" fill="#1f2937">系统监控</text>
+
+  <!-- Stats Cards -->
+  <!-- Total Requests -->
+  <rect x="30" y="90" width="270" height="140" rx="12" fill="white" stroke="#e5e7eb"/>
+  <circle cx="70" cy="130" r="24" fill="#dbeafe"/>
+  <text x="70" y="138" font-size="20" text-anchor="middle">📊</text>
+  <text x="30" y="185" font-size="13" fill="#6b7280">总请求数</text>
+  <text x="30" y="215" font-size="32" font-weight="bold" fill="#1f2937">1,234</text>
+
+  <!-- Success Rate -->
+  <rect x="320" y="90" width="270" height="140" rx="12" fill="white" stroke="#e5e7eb"/>
+  <circle cx="360" cy="130" r="24" fill="#d1fae5"/>
+  <text x="360" y="138" font-size="20" text-anchor="middle">✅</text>
+  <text x="320" y="185" font-size="13" fill="#6b7280">成功率</text>
+  <text x="320" y="215" font-size="32" font-weight="bold" fill="#10b981">98.5%</text>
+
+  <!-- Avg Response Time -->
+  <rect x="610" y="90" width="270" height="140" rx="12" fill="white" stroke="#e5e7eb"/>
+  <circle cx="650" cy="130" r="24" fill="#fef3c7"/>
+  <text x="650" y="138" font-size="20" text-anchor="middle">⚡</text>
+  <text x="610" y="185" font-size="13" fill="#6b7280">平均响应时间</text>
+  <text x="610" y="215" font-size="32" font-weight="bold" fill="#f59e0b">350ms</text>
+
+  <!-- Error Count -->
+  <rect x="900" y="90" width="270" height="140" rx="12" fill="white" stroke="#e5e7eb"/>
+  <circle cx="940" cy="130" r="24" fill="#fee2e2"/>
+  <text x="940" y="138" font-size="20" text-anchor="middle">❌</text>
+  <text x="900" y="185" font-size="13" fill="#6b7280">错误数量</text>
+  <text x="900" y="215" font-size="32" font-weight="bold" fill="#ef4444">18</text>
+
+  <!-- Cookie Status -->
+  <rect x="30" y="250" width="1140" height="100" rx="12" fill="white" stroke="#e5e7eb"/>
+  <text x="50" y="285" font-size="18" font-weight="600" fill="#1f2937">Cookie 状态</text>
+  <circle cx="70" cy="315" r="8" fill="#10b981" class="animate-pulse"/>
+  <text x="90" y="320" font-size="15" font-weight="500" fill="#1f2937">Cookie 有效</text>
+  <text x="250" y="320" font-size="13" fill="#6b7280">最后更新: 2024-01-10 15:45:30</text>
+
+  <!-- System Info Grid -->
+  <rect x="30" y="370" width="560" height="180" rx="12" fill="white" stroke="#e5e7eb"/>
+  <text x="50" y="405" font-size="18" font-weight="600" fill="#1f2937">运行时间</text>
+  <text x="50" y="450" font-size="42" font-weight="bold" fill="#3b82f6">5</text>
+  <text x="100" y="455" font-size="14" fill="#6b7280">小时</text>
+  <text x="150" y="450" font-size="42" font-weight="bold" fill="#3b82f6">23</text>
+  <text x="210" y="455" font-size="14" fill="#6b7280">分钟</text>
+
+  <!-- Memory Usage -->
+  <rect x="610" y="370" width="560" height="180" rx="12" fill="white" stroke="#e5e7eb"/>
+  <text x="630" y="405" font-size="18" font-weight="600" fill="#1f2937">内存使用</text>
+
+  <text x="650" y="440" font-size="12" fill="#6b7280">RSS</text>
+  <text x="1050" y="440" font-size="13" font-weight="600" fill="#1f2937">125 MB</text>
+
+  <text x="650" y="470" font-size="12" fill="#6b7280">Heap Total</text>
+  <text x="1050" y="470" font-size="13" font-weight="600" fill="#1f2937">85 MB</text>
+
+  <text x="650" y="500" font-size="12" fill="#6b7280">Heap Used</text>
+  <text x="1050" y="500" font-size="13" font-weight="600" fill="#1f2937">62 MB</text>
+
+  <!-- Progress Bar -->
+  <rect x="650" y="515" width="490" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="650" y="515" width="358" height="8" rx="4" fill="#3b82f6"/>
+  <text x="895" y="540" font-size="11" text-anchor="middle" fill="#6b7280">72.9% 使用中</text>
+
+  <!-- Health Status -->
+  <rect x="30" y="570" width="1140" height="75" rx="12" fill="#ecfdf5" stroke="#86efac"/>
+  <circle cx="70" cy="607" r="6" fill="#10b981" class="animate-pulse"/>
+  <text x="90" y="610" font-size="16" font-weight="500" fill="#1f2937">系统健康状态</text>
+  <text x="90" y="635" font-size="13" fill="#6b7280">所有系统正常运行 • 自动刷新: 每 10 秒</text>
+</svg>

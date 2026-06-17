@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#grad1)"/>
+
+  <!-- Login Card -->
+  <rect x="400" y="150" width="400" height="375" rx="20" fill="white" opacity="0.95"/>
+
+  <!-- Logo -->
+  <circle cx="600" cy="200" r="30" fill="#667eea"/>
+  <text x="600" y="210" font-size="24" text-anchor="middle" fill="white">🤖</text>
+
+  <!-- Title -->
+  <text x="600" y="260" font-size="28" font-weight="bold" text-anchor="middle" fill="#1f2937">baiduchat2api</text>
+  <text x="600" y="285" font-size="14" text-anchor="middle" fill="#6b7280">管理系统</text>
+
+  <!-- Username Field -->
+  <rect x="440" y="320" width="320" height="45" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="460" y="310" font-size="12" font-weight="500" fill="#374151">用户名</text>
+  <text x="460" y="348" font-size="14" fill="#9ca3af">admin</text>
+
+  <!-- Password Field -->
+  <rect x="440" y="395" width="320" height="45" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="460" y="385" font-size="12" font-weight="500" fill="#374151">密码</text>
+  <text x="460" y="423" font-size="14" fill="#9ca3af">••••••••</text>
+
+  <!-- Login Button -->
+  <rect x="440" y="460" width="320" height="45" rx="8" fill="#667eea"/>
+  <text x="600" y="488" font-size="16" font-weight="500" text-anchor="middle" fill="white">登录</text>
+
+  <!-- Footer -->
+  <text x="600" y="560" font-size="11" text-anchor="middle" fill="#9ca3af">© 2024 baiduchat2api-manage</text>
+</svg>
